@@ -72,4 +72,17 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Additional files if necessary:
+
+```bash
+# env
+create .env file then add these:
+# Session configuration
+SESSION_SECRET='SECRET123'
+
+# App configuration
+NUXT_PUBLIC_APP_NAME="Nuxt Auth App"
+
+# Development
+NODE_ENV=development
+```
